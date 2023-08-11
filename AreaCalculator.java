@@ -2,31 +2,31 @@ import java.util.*;
 
 public class AreaCalculator {
   public static double area_triangle(double base, double height) {
-		System.out.println();
-		double A = (base * height) / 2;
+    System.out.println();
+    double A = (base * height) / 2;
 
-		System.out.println("The area is " + A + ".");
+    System.out.println("The area is " + A + ".");
     return A;
-	}
+  }
 
   public static double area_rectangle(double length, double width){
-		System.out.println();
-		double A = length * width;
+    System.out.println();
+    double A = length * width;
 
-		System.out.println("The area is " + A + ".");
-		return A;
-	}
+    System.out.println("The area is " + A + ".");
+    return A;
+  }
 
   public static double area_circle(double radius) {
-		System.out.println();
-		double A = Math.PI * radius * radius;
+    System.out.println();
+    double A = Math.PI * radius * radius;
 
-		System.out.println("The area is " + A + ".");
-		return A;
-	}
+    System.out.println("The area is " + A + ".");
+    return A;
+  }
 
 	public static void main(String[] args) {
-	  try (Scanner keyboard = new Scanner(System.in)) {
+    try (Scanner keyboard = new Scanner(System.in)) {
       System.out.println("Shape Area Calculator");
 
       while (true) {
